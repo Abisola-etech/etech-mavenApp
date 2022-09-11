@@ -29,7 +29,7 @@ pipeline {
         sh 'mvn clean verify sonar:sonar \
   -Dsonar.projectKey=abisola-pipeline \
   -Dsonar.host.url=http://3.132.171.251:9000 \
-  -Dsonar.login=sqp_bc240b4fb59897543a8584e5fbc91fcad852647b'
+  -Dsonar.login=sqp_85da27e98f50cc7e763ae81b9a5423a639a9d0ad'
       }
     }
   }

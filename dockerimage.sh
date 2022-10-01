@@ -6,6 +6,8 @@ imagename= $image
 dockercontainer=$containername
 sudo git clone $repo
 cd $repo
+cd MavenEnterpriseApp-web
+ls
 sudo chmod 777 $(pwd)
 mvn clean package
 ls
